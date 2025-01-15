@@ -1,0 +1,14 @@
+    - Part 2 - Seven Segment BCD Decoder driven
+
+    -- objectives -- 
+- uses 16 bit sfrs for timer 2 reload (RCAP2H, RCAP2L) and timer 2 (T2H, T2L).
+- display number function coded for BCD Decoder.
+- oscillator initialization function (16.0 MHz). Turn external  oscillator off 
+  and use internal oscillator.
+- port initialization function (P0.0-P0.3).
+- delay function for 1 sec delay (Wait_ms).
+- body of main with count variable to keep track of 7-seg number (0-9).
+
+
+
+
